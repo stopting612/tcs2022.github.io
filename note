@@ -1,0 +1,6 @@
+<SwiperSlide key={key}>
+          <div className={`${styles.swiper_slide} ${styles.home_slide}`}>
+            <p>{item.title}</p>
+            <div className={styles.home_date}>{item.title}</div>
+          </div>
+        </SwiperSlide>

@@ -1,0 +1,30 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+main {
+  z-index: 5;
+  display: block;
+}
+
+p {
+  font-size: 18px;
+}
+
+p {
+  line-height: 26px;
+}
+
+.wrap {
+  padding: 64px 0 ;
+}
+a {
+  cursor: pointer;
+}

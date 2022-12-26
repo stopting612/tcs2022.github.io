@@ -1,0 +1,60 @@
+.faq_outline {
+        width: 100%;
+        color: #377d94;
+        font-size: 20px;
+        float: left;
+        margin: 0 0 35px;
+}
+
+.faq_outline > ul {
+        margin-left: 20px;
+        list-style: decimal;
+        padding: 0;
+}
+
+.wrap {
+        margin: 0 auto;
+        max-width: 1180px;
+        padding: 64px 0 ;
+}
+
+.faq_outline li {
+        margin-bottom: 20px;
+}
+
+.faq_outline_box {
+        float: left;
+        width: 574px;
+}
+
+.faq_point_line_grey {
+        background: url('/point-line-grey.png') no-repeat;
+        background-size: contain;
+        width: 1180px;
+        height: 11px;
+        margin: 0 0 55px;
+        clear: both;
+}
+
+@media (max-width: 1180px){
+        .wrap {
+                max-width: 768px;
+        }
+
+        .faq_outline_box {
+                width: 50%;
+        }
+}
+
+
+@media (max-width: 767px){
+        .faq_outline {
+                width: 100%;
+                margin: 0 20px;
+        }
+
+        .faq_outline_box {
+                width: 100%;
+        }
+
+}

@@ -1,0 +1,148 @@
+.intro {
+        padding-bottom: 0;
+        max-width: 1180px;
+        margin: 0 auto;
+}
+
+.onlineSurveyWrap {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        max-width: calc(1180px + 80px);
+        margin: auto;
+        position: relative;
+        overflow: hidden;
+        padding: 155px 0 100px;
+
+
+}
+
+.onlineSurveyTabWrap {
+        max-width: 1180px;
+        width: 100%;
+        position: absolute;
+        left: calc((100% - 1180px) / 2);
+        top: 60px;
+        height: 1px;
+
+}
+
+.onlineSurveyWrap_active::before {
+        background-image: url('/bg_login_top_tab.png') !important;
+
+}
+
+
+.onlineSurveyWrap::before {
+        content: "";
+        background: url('/bg_active_top_tab.png') top no-repeat;
+        height: 155px;
+        width: 1300px;
+        background-size: 1300px 155px;
+        position: absolute;
+        top:0;
+        transition: .2s ;
+}
+
+.register_active {
+        color: #377d94 !important;
+
+}
+
+.register_btn {
+        left: 30;
+}
+
+.login_btn {
+        left: calc(602px - 60px);
+}
+
+
+.tab_btn {
+        font-size: 18px;
+        border: none;
+        background: none;
+        cursor: pointer;
+        position: absolute;
+        top: 0;
+        color: #fff;
+        font-weight: 700;
+        padding: 20px 100px 20px 60px;
+
+}
+
+.formBgWrap {
+        width: 100%;
+        background-image: url('/bg_share_mid.png');
+        padding-top: calc(63px - 29px);
+        background-repeat: repeat-y;
+        background-size: 1231px 205px;
+        width: 1231px;
+        height: 255px;
+}
+
+.formContainWrap {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        width: 1142px;
+}
+
+.fieldWrap {
+        width: 100%;
+        display:flex;
+        margin-bottom: 16px;
+        align-items: center;
+        justify-content: space-evenly;
+        position: relative;
+}
+
+.fieldWrap label {
+        font-size: 18px;
+}
+
+.fieldWrap input {
+        width: 600px;
+        border-radius: 8px;
+        border: 1px solid #5f7383;
+        font-size: 18px;
+        padding: 0 14px;
+        height: 40px;
+        color: #707070;
+
+}
+
+.buttonWrap {
+        margin-top: 6px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+}
+
+.btn {
+        display: flex;
+        flex: 0 0 auto;
+        height: 50px;
+        align-items: center;
+        font-size: 16px;
+        justify-content: center;
+        cursor: pointer;
+        transition: all .3s;
+        padding: 0 30px;
+        color: #fff;
+        font-weight: 700;
+        background-color: #377d94;
+        border: 1px solid #377d94;
+        border-radius: 24px;
+}
+
+.onlineSurveyWrap::after {
+        content: "";
+        width: calc(1180px + 120px);
+        position: absolute;
+        background: url('/bg_share_bot.png') top no-repeat;
+        height: 101px;
+        background-size: 1233px 88px;
+        bottom: 0;
+}
+
