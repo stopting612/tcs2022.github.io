@@ -1,0 +1,52 @@
+
+
+.home_surveyLink > a {
+        
+        overflow: hidden;
+        color: inherit;
+        text-decoration: none;
+        transition: .2s ease;
+       
+        
+}
+
+.home_surveyLink{
+        background-size: 50%;
+        background-repeat: no-repeat;
+        background-position: 50px;
+        width: 271px;
+        height: 254px;
+        border-radius: 24px;
+        
+        
+}
+
+
+.home_surveyLink > a > span {
+        text-align: center;
+        height: 64px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #c9e1ea;
+        border-bottom-left-radius: 24px;
+        border-bottom-right-radius: 24px;
+}
+
+.home_icon_img{
+        background: 50% no-repeat;
+        background-size: 80px auto;
+        height: 191px;
+}
+
+@media (max-width: 1180px){
+        .home_surveyLink{
+                width: 160px;
+                height: 171px;
+                margin-bottom: 16px;
+        }
+
+        .home_icon_img{
+                height: 107px;
+        }
+}

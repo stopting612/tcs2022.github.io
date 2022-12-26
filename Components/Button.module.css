@@ -1,0 +1,22 @@
+.buttonComponent {
+        margin-top: 6px;
+        display: flex;
+        justify-content: center;
+}
+
+.btn {
+        display: flex;
+        flex: 0 0 auto;
+        height: 30px;
+        align-items: center;
+        font-size: 15px;
+        justify-content: center;
+        cursor: pointer;
+        transition: all .3s;
+        padding: 0 30px;
+        color: #fff;
+        font-weight: 700;
+        background-color: #377d94;
+        border: 1px solid #377d94;
+        border-radius: 24px;
+}

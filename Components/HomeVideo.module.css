@@ -1,0 +1,116 @@
+.home_video_wrap {
+        text-align: center;
+        margin: 80px auto 60px;
+        padding: 50px 0 100px;
+        position: relative;
+        width: 1180px;
+}
+
+.home_video_wrap h3 {
+        font-size: 28px;
+        color: #377d94;
+        position: relative;
+        z-index: 5;
+        margin-bottom: 40px;
+        
+
+}
+
+.home_video_wrap iframe {
+        width: 776px;
+        height: 436px;
+        position: relative;
+        z-index: 5;
+        
+
+}
+
+.home_video_wrap::before{
+        width: 60%;
+        height: 90%;
+        right: 0;
+        bottom: 0;
+        background-color: #7fcecd;
+        opacity: .2;
+        z-index: 1;
+        border-radius: 16px;
+        content: "";
+        position: absolute;
+}
+
+.home_video_wrap::after{
+        width: 80%;
+        height: 90%;
+        left: 0;
+        top:0;
+        background-color: #fcfcfc;
+        z-index: 1;
+        border-radius: 16px;
+        position: absolute;
+        content: "";
+}
+
+.responsiveImgDestop {
+        max-width: 1180px;
+        width: calc(100% - 40px);
+        margin: 60px auto 0;
+        display: block;
+
+}
+.responsiveImgMobile {
+        display: none;
+}
+
+@media (max-width: 1180px){
+        .home_video_wrap {
+                width: 760px;
+                margin: 40px auto 30px;
+                padding: 30px 0 50px;
+        }
+
+        .home_video_wrap h3 {
+                font-size: 20px;
+                margin-bottom: 20px;
+                
+        }
+
+        .home_video_wrap iframe {
+                width: 560px;
+                height: 320px;
+
+                
+        
+        }
+        .home_video_wrap::before {
+                height: 95%;
+        } 
+        .home_video_wrap::after {
+                height: 93%;
+        } 
+}
+
+@media (max-width: 767px){
+        .home_video_wrap {
+                width: calc(100% - 48px);
+
+        }
+
+        .responsiveImgDestop {
+                display: none;
+        }
+
+        .home_video_wrap iframe {
+                width: 300px;
+                height: 180px;
+
+                
+        
+        }
+
+        .responsiveImgMobile {
+                display: block;
+                max-width: 1180px;
+                width: calc(100% - 40px);
+                margin: 60px auto 0;
+        }
+}

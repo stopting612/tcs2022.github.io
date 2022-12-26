@@ -1,0 +1,63 @@
+.aboutTcsContent {
+        padding-bottom: 48px;
+        margin: 0 0 48px 100px;
+        border-bottom: 1px solid #7fcecd;
+        position: relative;
+        font-size: 18px;
+}
+
+
+.aboutTcsSubtitle {
+        color: #377d94;
+        font-size: 24px;
+        line-height: 24px;
+        font-family: Arial, Helvetica, sans-serif;
+        width: fit-content;
+}
+
+.aboutTcsSubtitle::before {
+
+        content: "";
+        background-image: url("/point-line-green.svg") ;
+        background-repeat: no-repeat;
+       background-size: contain;
+       width: 24px;
+       height: 8px;
+       float: left;
+       margin: 8px 12px 8px 0;
+}
+
+.aboutTcsSubtitle::after {
+
+        content: "";
+        background-image: url("/arrow-right-green.svg") ;
+        background-repeat: no-repeat;
+       background-size: contain;
+       width: 30px;
+       height: 8px;
+       float: right;
+       margin: 8px 12px;
+}
+
+.about_tcs_history::before{
+        background-image: url("/history.svg");
+}
+
+.about_tcs_objectives::before{
+        background-image: url("/objectives.svg");
+}
+
+.about_tcs_surveyMethod::before{
+        background-image: url("/surveyMethod.svg");
+}
+
+.aboutTcsContent::before {
+        content: "";
+        position: absolute;
+        top:0;
+        left: -100px;
+        background-repeat: no-repeat;
+        width: 69px;
+        height: 69px;
+
+}
